@@ -4,7 +4,7 @@ Download: [Data](https://www.quandl.com/product/WIKIP/WIKI/PRICES-Quandl-End-Of-
 Abstract: Label each stock Buy, Hold, or Sell based on particular metrics and past performance.
 
 ## Attribute Information:
-Listing of original attributes: 
+List of original attributes: 
 - `open`: The price of the first trade for any listed stock on a given date. 
 - `high`: The highest price at which a stock traded during the course of the day. 
 - `low`: The lowest price at which a stock traded during the course of the day.
@@ -38,11 +38,12 @@ Listing of original attributes:
 ```
 .
 ├── README.md
+├── __indicators__.py
 ├── __init__.py
 ├── data
-│   ├── disney_df
+│   ├── disney_df.p
 │   ├── dow_jones_df.p
-│   └── dow_jones_df_daymonthyear
+│   └── dow_jones_df_daymonthyear.p
 └── ipynb
     ├── dow_jones_table.ipynb
     └── stock_eda.ipynb
