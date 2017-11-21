@@ -5,6 +5,8 @@ Abstract: Label each stock Buy, Hold, or Sell based on particular metrics and pa
 
 ## Attribute Information:
 List of original attributes: 
+- `ticker`: An arrangement of characters (usually letters) representing a particular security listed on an exchange or otherwise traded publicly.
+- `date`: Date the data was collected.
 - `open`: The price of the first trade for any listed stock on a given date. 
 - `high`: The highest price at which a stock traded during the course of the day. 
 - `low`: The lowest price at which a stock traded during the course of the day.
