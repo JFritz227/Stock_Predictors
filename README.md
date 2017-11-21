@@ -57,52 +57,40 @@ Listing of original attributes:
         - 125, number of trading days per two quarters
         - 250, number of trading days per year
         
-    - Metrics:
+    - Added Metrics:
         - [5, 21, 63, 125, 250]-Day Moving Average (MA)
         - [5, 21, 63, 125, 250]-Day Exponential Moving Average (EMA)
         - [5, 21, 63, 125, 250]-Day Momentum (MOM)
         - [5, 21, 63, 125, 250]-Day Rate of Change (ROC)
-        ----- [5, 21, 63, 125, 250]-Day Average True Range (ATR)
         - [5, 21, 63, 125, 250]-Day Bollinger Bands (BBANDS)
         - Pivot Points, Supports and Resistances (PPSR)
         - Stochastic Oscillator %K (STOK)
         - [5, 21, 63, 125, 250]-Day Stochastic Oscillator %D (STO)
-        ----- [5, 21, 63, 125, 250]-Day Trix (TRIX)
-        ----- Average Directional Movement Index (ADX)
-        ----- MACD, MACD Signal and MACD difference (MACD)
         - Mass Index (MassI)
-        ----- [5, 21, 63, 125, 250]-Day Vortex Indicator (Vortex)
-        ----- KST Oscillator (KST)
-        ----- [5, 21, 63, 125, 250]-Day Relative Strenght Index (RSI)
-        ----- True Strenght Index (TSI)
         - [5, 21, 63, 125, 250]-Day Accumulation/Distribution (ACCDIST)
         - Chaikin Oscillator (Chaikin)
-        ----- [5, 21, 63, 125, 250]-Day Money Flow Index and Ratio (MFI)
-        ----- [5, 21, 63, 125, 250]-Day On-balance Volume (OBV)
         - [5, 21, 63, 125, 250]-Day Force Index (FORCE)
         - [5, 21, 63, 125, 250]-Day Ease of Movement (EOM)
         - [5, 21, 63, 125, 250]-Day Commodity Channel Index (CCI)
         - [5, 21, 63, 125, 250]-Day Coppock Curve(COPP)
         - [5, 21, 63, 125, 250]-Day Keltner Channel (KELCH)
-        ----- Ultimate Oscillator (ULTOSC)
-        ----- [5, 21, 63, 125, 250]-Day Donchian Channel (DONCH)
         - [5, 21, 63, 125, 250]-Day Standard Deviation (STDDEV)
         
         
     - TODO: 
         - Try to fix warnings
-        - ATR not working
-        - TRIX not working
-        - ADX not sure what input values 
-        - MACD not sure what input values
-        - Vortex not working
-        - KST not sure what input values
-        - RSI not working
-        - TSI not sure what input values
-        - MFI not working
-        - OBV not working
-        - ULTOSC not working
-        - DONCH not working
+        - [5, 21, 63, 125, 250]-Day Average True Range (ATR): not working
+        - [5, 21, 63, 125, 250]-Day Trix (TRIX): not working
+        - Average Directional Movement Index (ADX): not sure what input values 
+        - MACD, MACD Signal and MACD difference (MACD): not sure what input values
+        - [5, 21, 63, 125, 250]-Day Vortex Indicator (Vortex): not working
+        - KST Oscillator (KST): not sure what input values
+        - [5, 21, 63, 125, 250]-Day Relative Strenght Index (RSI): not working
+        - True Strenght Index (TSI): not sure what input values
+        - [5, 21, 63, 125, 250]-Day Money Flow Index and Ratio (MFI): not working
+        - [5, 21, 63, 125, 250]-Day On-balance Volume (OBV): not working
+        - Ultimate Oscillator (ULTOSC): not working
+        - [5, 21, 63, 125, 250]-Day Donchian Channel (DONCH): not working
 
 1. Establish sampling procedure
 
@@ -143,4 +131,4 @@ Listing of original attributes:
 1. Reduce the feature set
 
 1. Explore other data projections:
-   - Polynomial expansions# Stock_Predictors
+   - Polynomial expansions
