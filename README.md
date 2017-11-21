@@ -49,7 +49,7 @@ List of original attributes:
     └── stock_eda.ipynb
 ```
 
-1. Feature Engineering
+2. Feature Engineering
     - https://www.quantopian.com/posts/technical-analysis-indicators-without-talib-code
     - chose following n values:
         - 5, number of trading days per week
